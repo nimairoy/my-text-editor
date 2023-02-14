@@ -1,14 +1,14 @@
 //  bold 
 document.getElementById('bold').addEventListener('click', function() {
-       document.getElementById('textarea').style.fontWeight="bold";
+       document.getElementById('textarea').classList.toggle("font-bold");
 })
 // italic
 document.getElementById('italic').addEventListener('click', function() {
-       document.getElementById('textarea').style.fontStyle="italic";
+       document.getElementById('textarea').classList.toggle("italic");
 })
 // underline
 document.getElementById('underline').addEventListener('click', function() {
-       document.getElementById('textarea').style.textDecoration="underline";
+       document.getElementById('textarea').classList.toggle("underline");
 })
 // text align left
 document.getElementById('text-left').addEventListener('click', function() {
