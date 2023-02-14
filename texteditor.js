@@ -27,7 +27,7 @@ document.getElementById('text-justify').addEventListener('click', function() {
        document.getElementById('textarea').style.textAlign="justify";
 })
 // font size 
-document.getElementById('fontSize').addEventListener('click', function(e) {
+document.getElementById('fontSize').addEventListener('change', function(e) {
       let inputValue = e.target.value;      
       document.getElementById('textarea').style.fontSize = inputValue+'px';
 })
